@@ -1,0 +1,38 @@
+### Maven / Spring Boot ###
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+*.war
+
+# Logs
+*.log
+logs/
+
+# Respaldos generados por el módulo de Respaldo y Recuperación
+backups/
+*.sql.enc
+
+# Archivos de entorno / credenciales locales
+.env
+.env.local
+application-local.properties
+
+### IDEs y editores ###
+.idea/
+*.iml
+.vscode/
+!.vscode/extensions.json
+.classpath
+.project
+.settings/
+*.launch
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Varios ###
+*.tmp
+*.bak
